@@ -1,0 +1,52 @@
+# Synonyms
+
+0,zero
+ii,2,zwei,two
+iii,3,drei,three
+iv,4,vier,four
+v,5,funf,five
+vi,6,sechs,six
+vii,7,sieben,seven
+viii,8,acht,eight
+ix,9,neun,nine
+x,10,zehn,ten
+xi,11,elf,eleven
+xii,12,zwolf,twelve
+xiii,13
+xiv,14
+xv,15
+ÃŸ => ss
+10,2010
+11,2011
+12,2012
+13,2013
+14,2014
+15,2015
+16,2016
+17,2017
+18,2018
+19,2019
+
+battlefield1,bf1,battlefield 1
+brasil,brazil
+bros,brothers
+combat,kombat
+civilisation,civilization
+herr der ringe,lord of the rings
+dr,doctor
+flug,flight
+f1,formel1,formel 1
+gamecard,gametime card
+hentai,erotik
+kontroller,controller
+moon,mond
+ninokuni, nino kuni, ni no kuni
+playseat,racesitz,rennsitz,gameseat,gamesitz,gamestuhl,gaming stuhl
+puppenspieler,puppeteer
+rouge,rogue
+schrittzahler,aktivitatsmesser
+sun,sonne
+technik,technic
+traveler,traveller
+vr brille,playstation vr
+yugioh,yugioh2,yu-gi-oh,yu gi oh
