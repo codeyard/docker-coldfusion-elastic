@@ -2,7 +2,7 @@
 
 ColdFusion 10 and Elasticsearch 7 as a Docker image on Ubuntu 16.04.
 
-## What's included?
+## What's included?
 
 * Adobe ColdFusion 10
    * with the latest hotfix applied (hotfix_023)
@@ -10,7 +10,7 @@ ColdFusion 10 and Elasticsearch 7 as a Docker image on Ubuntu 16.04.
 * Elasticsearch 7.0.0
 
 
-## Installation
+## Installation
 
 Pull the image from Docker Hub:
 `docker pull raphaelgerber/coldfusion-elastic:latest`
@@ -42,7 +42,7 @@ If you prefer to build the image yourself instead of pulling it from Docker Hub,
 
 ***
 
-## Info
+## Info
 
 The ColdFusion Administrator is located at [http://localhost:8880/CFIDE/administrator/index.cfm](http://localhost:8880/CFIDE/administrator/index.cfm). The Password is `Adm1n$`.
 
