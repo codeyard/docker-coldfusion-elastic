@@ -3,7 +3,7 @@ EXPOSE 80 8500
 VOLUME ["/var/www", "/etc/apache2/sites-enabled", "/usr/share/config", "/var/lib/elasticsearch"]
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV REFRESHED_AT 2019_05_02
+ENV REFRESHED_AT 2019_05_03
 
 RUN apt-get update
 RUN apt-get -y upgrade
@@ -30,6 +30,7 @@ RUN apt-get -y upgrade
 RUN wget -q https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.0.0-amd64.deb
 RUN dpkg -i elasticsearch-7.0.0-amd64.deb
 RUN systemctl enable elasticsearch.service
+RUN rm elasticsearch-7.0.0-amd64.deb
 
 RUN touch /usr/share/config/elasticsearch.yml
 RUN touch /usr/share/config/synonyms.txt

@@ -35,7 +35,7 @@ If you prefer to build the image yourself instead of pulling it from Docker Hub,
 
 * Clone this repository: `git clone https://github.com/codeyard/docker-coldfusion-elastic.git /local/path`
 * Change directory: `cd /local/path/docker-coldfusion-elastic`
-* Download the ColdFusion binary and patch files by running `./prepare.sh`
+* Download the ColdFusion binary and patch files by running `./prepare.sh` if you are testing (so the ColdFusion install files don't get downloaded with every new build).
 * Build the container: `docker build . -t raphaelgerber/coldfusion-elastic:latest`
 * Run the container: `docker run -d -p 8880:80 -v /local/webroot:/var/www -v /local/apache/vhosts:/etc/apache2/sites-enabled -v /local/elasticsearch/config:/usr/share/config -v /local/elasticsearch/data:/var/lib/elasticsearch --name cfelastic raphaelgerber/coldfusion-elastic`
 
