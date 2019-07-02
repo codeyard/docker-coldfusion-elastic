@@ -22,6 +22,12 @@ then
 	chmod 755 cf10_mdt_updt.jar
 fi
 
+if [ ! -f "jsoup-1.11.3.jar" ]
+then
+	wget -q https://jsoup.org/packages/jsoup-1.11.3.jar
+	chmod 755 jsoup-1.11.3.jar
+fi
+
 /tmp/ColdFusion_10_WWEJ_linux64.bin -f installer.profile
 
 # Disable admin security
@@ -65,3 +71,6 @@ mv /tmp/neo-mail.xml /opt/coldfusion10/cfusion/lib/neo-mail.xml
 mv /tmp/neo-monitoring.xml /opt/coldfusion10/cfusion/lib/neo-monitoring.xml
 mv /tmp/neo-runtime.xml /opt/coldfusion10/cfusion/lib/neo-runtime.xml
 mv /tmp/neo-websocket.xml /opt/coldfusion10/cfusion/lib/neo-websocket.xml
+
+# Apply jsoup HTML Parser
+mv /tmp/jsoup-1.11.3.jar /opt/coldfusion10/cfusion/wwwroot/WEB-INF/lib/jsoup-1.11.3.jar

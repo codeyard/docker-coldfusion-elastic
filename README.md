@@ -7,7 +7,7 @@ ColdFusion 10 and Elasticsearch 7 as a Docker image on Ubuntu 16.04.
 * Adobe ColdFusion 10
    * with the latest hotfix applied (hotfix_023)
    * with my recommended settings for local development
-* Elasticsearch 7.1.1
+* Elasticsearch 7.2
 
 
 ## Installation

@@ -20,3 +20,9 @@ then
 	wget -q https://s3-eu-west-1.amazonaws.com/igloo-devops/coldfusion10-install/cf10_mdt_updt.jar
 	chmod 755 cf10_mdt_updt.jar
 fi
+
+if [ ! -f "jsoup-1.11.3.jar" ]
+then
+	wget -q https://jsoup.org/packages/jsoup-1.11.3.jar
+	chmod 755 jsoup-1.11.3.jar
+fi

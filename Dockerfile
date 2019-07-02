@@ -24,13 +24,13 @@ RUN rm /tmp/*.sh
 RUN rm /tmp/*.jar
 
 
-# Install Elasticsearch 7.1.1
+# Install Elasticsearch 7.2
 RUN apt-get update
 RUN apt-get -y upgrade
-RUN wget -q https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.1.1-amd64.deb
-RUN dpkg -i elasticsearch-7.1.1-amd64.deb
+RUN wget -q https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.2.0-amd64.deb
+RUN dpkg -i elasticsearch-7.2.0-amd64.deb
 RUN systemctl enable elasticsearch.service
-RUN rm elasticsearch-7.1.1-amd64.deb
+RUN rm elasticsearch-7.2.0-amd64.deb
 
 RUN touch /usr/share/config/elasticsearch.yml
 RUN touch /usr/share/config/synonyms.txt

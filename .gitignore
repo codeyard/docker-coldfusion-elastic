@@ -1,3 +1,4 @@
 build/install/ColdFusion_10_WWEJ_linux64.bin
 build/install/cf10_mdt_updt.jar
 build/install/hotfix_023.jar
+build/install/jsoup-1.11.3.jar
