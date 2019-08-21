@@ -19,6 +19,9 @@
                 <var name="/WEB-INF/customtags10000">
                     <string>/opt/coldfusion10/cfusion/CustomTags</string>
                 </var>
+                <var name="/WEB-INF/customtags1566374817104">
+                    <string>/var/www/wog-v3/base/customtag</string>
+                </var>
             </struct>
             <struct type="coldfusion.server.ConfigMap">
                 <var name="useorb">
